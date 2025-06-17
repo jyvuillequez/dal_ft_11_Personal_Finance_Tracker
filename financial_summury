@@ -1,0 +1,8 @@
+income = 0
+expenses = []
+
+def add_income():
+    global income
+    amount = float(input("Enter income amount: "))
+    income += amount
+    print(f"Added income: €{amount}")
